@@ -1,0 +1,13 @@
+.button{
+    background: linear-gradient(90deg, #017373, #AAD9D1);
+    display: inline-flex;
+    gap: 8px;
+    padding: 16px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button__title{
+    font-size: 2rem;
+    font-weight: 400;
+}

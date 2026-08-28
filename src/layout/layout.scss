@@ -1,0 +1,10 @@
+@import '../style/vars.scss';
+
+body{
+    background-color: $primary-color-dark-dark;
+}
+
+.main{
+    max-width: 70vw;
+    margin: 0 auto;
+}

@@ -1,0 +1,23 @@
+@import '../../style/vars';
+
+.header{
+    border-bottom: 1px solid #048C80;
+}
+
+.header__content{
+    display: flex;   
+    align-items: center;
+    justify-content: space-between;
+    max-width: 75.5vw;
+    margin: 24px auto;
+}
+
+.header__nav{
+    display: flex;
+    gap: 56px;
+}
+
+.header__nav-item{
+    color: $primary-color-white-dark;
+    font-size: 2rem;
+}

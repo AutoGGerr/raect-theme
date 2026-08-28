@@ -1,0 +1,64 @@
+@import '../../style/vars';
+
+.intelligent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 128px;
+    margin-bottom: 50px;
+}
+
+.intelligent__row{
+    & > div{
+        gap: 16px;
+    }
+}
+
+.intelligent__title{
+    color: $primary-color-white-dark;
+    font-size: 7.4rem;
+    font-weight: 700;
+    line-height: 106%;
+
+    & span{
+        color: transparent;
+        background: linear-gradient(90deg, #12b0b0, #95d3c9);
+        background-clip: text;
+        font-size: 7.4rem;
+        
+    }
+}
+
+.intelligent__desc{
+    font-weight: 400;
+    font-size: 2rem;
+    color: $primary-color-grey-dark;
+    margin-top: 16px;
+}
+
+.intelligent__form{
+    background-color: $primary-color-white-dark;
+    border-radius: 8px;
+    display: inline-flex;
+    gap: 48px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 6px 6px 6px 24px;
+    width: 22.6vw;
+}
+
+.intelligent__form-input{
+    height: 21px;
+    width: 11.51vw;
+    font-size: 2rem;
+    outline: none;
+    color: $accent-color-grey-dark;
+    font-weight: 400;
+
+    &::placeholder{
+        font-size: 2rem;
+    }
+    
+    
+}
