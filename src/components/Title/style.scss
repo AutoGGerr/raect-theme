@@ -1,0 +1,31 @@
+@import '../../style/vars.scss';
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    
+}
+
+.title__text{
+    color: $primary-color-white-dark;
+    font-size: 6rem;
+    font-weight: 700;
+
+    & span{
+        color: transparent;
+        background: linear-gradient(90deg, #12b0b0, #95d3c9);
+        background-clip: text;
+        font-size: 6rem;
+        font-weight: 700;
+    }
+}
+
+.title__desc{
+    color: $primary-color-grey-dark;
+    font-size: 2rem;
+    max-width: 21.35vw;
+    font-weight: 400;
+    text-align: center;
+}

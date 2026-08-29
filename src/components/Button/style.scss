@@ -5,6 +5,11 @@
     padding: 16px 24px;
     border-radius: 8px;
     cursor: pointer;
+    transition: background 0.3s ease-in-out;
+
+    &:hover{
+        background: linear-gradient(50deg, #017373, #AAD9D1);
+    }
 }
 
 .button__title{

@@ -1,0 +1,43 @@
+@import '../../style/vars.scss';
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    max-width: 24.55vw;
+    position: relative;
+
+    &::before{
+        content: url(../../assets/icons/main/quote.svg);
+        display: block;
+        position: absolute;
+        left: 0;
+        transform: translateY(-85%);
+    }
+}
+
+.quote > div{
+    display: flex;
+    gap: 16px;
+}
+
+.quote__title{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 140%;
+    text-align: center;
+    color: $primary-color-white-dark;
+}
+
+.quote__author{
+    font-size: 2rem;
+    font-weight: 400;
+    color: $primary-color-white-dark;
+}
+
+.quote__event{
+    font-size: 2rem;
+    font-weight: 400;
+    color: $secondary-color-grey-dark
+}
