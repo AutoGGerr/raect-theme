@@ -13,7 +13,11 @@ const Intelligent = () => {
                 </div>
                 <div className='intelligent__form'>
                     <input type="email" className='intelligent__form-input' placeholder='Enter your email'/>
-                    <Button>Sign up</Button>
+                    <Button
+                        color="black"
+                    >
+                        Sign up
+                    </Button>
                 </div>
 
             </div>

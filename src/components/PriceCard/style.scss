@@ -1,0 +1,71 @@
+@import '../../style/vars';
+
+.pricelist{
+    padding: 40px 32px;
+    border: $primary-color-green-dark 1px solid;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 24px;
+}
+
+.pricelist__ind{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.pricelist__ind-title{
+    font-size: 1.75rem;
+    color: $primary-color-green-dark;
+}
+
+.pricelist__price{
+    display: flex;
+}
+
+.pricelist__price-tilte{
+    font-weight: 700;
+    font-size: 6rem;
+    color: $primary-color-dark-dark;
+    
+    & span{
+        font-size: 2rem;
+        color: $accent-color-grey-dark;
+        font-weight: 400;
+    }
+}
+
+.pricelist__favorites{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.pricelist__favorites-item{
+    font-size: 2rem;
+    color: $accent-color-grey-dark;
+}
+
+.pricelist__favorites-block{
+    display: flex;
+    gap: 8px;
+}
+
+.pricelist__button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.pricelist__button-item{
+    width: 293px;
+    display: flex;
+    justify-content: center;
+}
+
+.pricelist__button-text{
+    color: $secondary-color-grey-dark;
+    font-size: 1.5rem;
+}

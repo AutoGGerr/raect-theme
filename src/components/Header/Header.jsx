@@ -12,7 +12,9 @@ const Header = () => {
                     <p className='header__nav-item'>Pricing</p>
                     <p className='header__nav-item'>Support</p>
                 </nav>
-                <Button>Get Started</Button>
+                <Button
+                    color="black"
+                >Get Started</Button>
             </div>
         </main>
     )

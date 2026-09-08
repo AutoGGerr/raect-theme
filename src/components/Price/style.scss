@@ -1,0 +1,64 @@
+@import '../../style/vars';
+
+.price{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 160px;
+}
+
+.price__radio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+.price__radio-title{
+    font-size: 2.25rem;
+    transition: color 0.1s ease-in-out;
+}
+
+.price__radio-item{
+    background-color: $primary-color-grey-dark;
+    border-radius: 16.5px;
+    min-width: 64px;
+    height: 33px;
+    padding: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+}
+
+.price__radio-span{
+    width: 18.9px;
+    height: 21px;
+    display: block;
+    background-color: #FFF;
+    border-radius: 55%;
+    z-index: 100;
+    position: absolute;
+    inset: 0;
+    top: 50%;
+    transform: translateY(-50%,);
+    left: 43px;
+    transition: left 0.1s ease;
+
+}
+
+.price__radio-sale{
+    background: linear-gradient(90deg, $button-background-linear-first-black, $button-background-linear-second-black);
+    font-size: 1.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 40px;
+    color: $primary-color-dark-dark;
+    font-weight: 500;
+}
+
+.price__list{
+    display: flex;
+    justify-content: space-between;
+}

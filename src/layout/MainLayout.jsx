@@ -35,6 +35,11 @@ const MainLayout = () => {
                     className="price__quote"
                 />
                 <Price />
+                <Quote 
+                    quoteTitle="We earned $300 in the bar tonight, do you still want to go to law school?"
+                    author="Victor Pelevin"
+                    className="popup__quote"
+                />
             </div>
             <Footer />
         </main>
