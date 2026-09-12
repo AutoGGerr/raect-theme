@@ -1,0 +1,17 @@
+@import '../../style/vars.scss';
+
+.asked{
+    margin-top: 160px;
+}
+
+.asked__faq{
+    margin-top: 72px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.asked__title p{
+    max-width: 800px;
+}

@@ -4,7 +4,7 @@ import logo from '../../assets/icons/main/logo.svg'
 import Button from '../Button/Button';
 const Header = () => {
     return(
-        <main className='header'>
+        <header className='header'>
             <div className="header__content">
                 <img src={logo} alt="" />
                 <nav className="header__nav">
@@ -16,7 +16,7 @@ const Header = () => {
                     color="black"
                 >Get Started</Button>
             </div>
-        </main>
+        </header>
     )
 }
 

@@ -8,6 +8,8 @@ import Quote from '../components/Quote/Quote'
 import Discover from '../components/Discover/Discover'
 import Video from '../components/Video/Video'
 import Price from '../components/Price/Price'
+import FAQ from '../components/FAQ/FAQ'
+import Unlock from '../components/Unlock/Unlock'
 
 const MainLayout = () => {
 
@@ -40,6 +42,13 @@ const MainLayout = () => {
                     author="Victor Pelevin"
                     className="popup__quote"
                 />
+                <FAQ />
+                <Quote 
+                    quoteTitle="The real-time synchronization and AI-powered organization have made our workflow more efficient than ever. "
+                    author="Sarah Johnson"
+                    className="unlock__quote"
+                />
+                <Unlock />
             </div>
             <Footer />
         </main>

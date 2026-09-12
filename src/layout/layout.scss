@@ -5,12 +5,13 @@ body{
 }
 
 .main{
-    max-width: 70vw;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
 .hero__quote{
-    margin: 134px auto 64px auto;
+    margin-top: 134px;
+    justify-content: center;
 }
 
 .discover__quote{
@@ -23,4 +24,8 @@ body{
 
 .popup__quote{
     margin: 160px auto 64px auto;  
+}
+
+.unlock__quote{
+    margin: 160px auto 64px auto;
 }

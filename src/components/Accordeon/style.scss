@@ -1,0 +1,47 @@
+@import '../../style/vars.scss';
+
+.accordeon{
+    width: 800px;
+    padding: 30px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    background-color: $primary-color-white-dark;
+    border-radius: 16px;
+    border: $button-background-linear-first-black 1px solid;
+    cursor: pointer;
+}
+
+.accordeon__content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.accordeon__title{
+    color: $primary-color-dark-dark;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.accordeon__desc{
+    color: $accent-color-grey-dark;
+    font-size: 2rem;
+    line-height: 150%;
+    font-weight: 400;
+}
+
+.accordeon__open{
+    max-height: 64px;
+    padding: 16px 30px;
+    align-items: center;
+    background-color: $primary-color-dark-dark;
+}
+
+.accordeon__open > .accordeon__content > .accordeon__title{
+    color: $button-background-white;
+}
+
+.accordeon__open > .accordeon__content > .accordeon__desc{
+    display: none;
+}
